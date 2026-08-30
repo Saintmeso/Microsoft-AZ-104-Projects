@@ -47,8 +47,6 @@ A hands-on identity and access management lab focused on:
 
 The lab involved creating different users and groups, organizing Azure resources into resource groups, assigning RBAC roles, and testing the permissions using separate accounts.
 
-[View Project →](./01-Identity-and-RBAC-Lab/)
-
 ---
 
 # Planned Projects
