@@ -49,28 +49,6 @@ The lab involved creating different users and groups, organizing Azure resources
 
 ---
 
-# Planned Projects
-
-Additional projects will be added as I progress through the AZ-104 learning path.
-
-Planned areas include:
-
-- Azure Virtual Machines
-- Azure Networking
-- Azure Storage
-- Azure Virtual Networks
-- Network Security Groups
-- Azure Monitor
-- Azure Backup
-- Azure Site Recovery
-- Azure Resource Management
-- Azure Governance
-- Azure Policy
-- Azure Automation
-- PowerShell and Azure CLI
-- Identity and Access Management
-- Azure Security
-- Cost Management
 
 Projects will be added gradually as I complete each lab and build a stronger understanding of the Azure Administrator role.
 
