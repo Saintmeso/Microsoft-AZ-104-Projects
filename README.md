@@ -30,26 +30,6 @@ The main goals of these projects are to:
 
 Each project is contained in its own directory and includes documentation explaining what was built, how it was configured, what was tested, and what was learned.
 
-## Project 01 — Enterprise Azure Identity & RBAC Lab
-
-A hands-on identity and access management lab focused on:
-
-- Microsoft Entra ID
-- Users
-- Security Groups
-- Azure Resource Groups
-- Azure RBAC
-- Role Assignments
-- RBAC Scope
-- Least Privilege
-- Permission Testing
-- Authorization Troubleshooting
-
-The lab involved creating different users and groups, organizing Azure resources into resource groups, assigning RBAC roles, and testing the permissions using separate accounts.
-
----
-
-
 Projects will be added gradually as I complete each lab and build a stronger understanding of the Azure Administrator role.
 
 ---
