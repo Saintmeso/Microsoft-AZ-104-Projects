@@ -27,3 +27,7 @@ Lab-07-Manage-Azure-Storage/
 ├── 02-Blob-Storage.md
 ├── 03-Azure-Files.md
 ```
+
+## Result
+
+Successfully created, configured, secured, and tested an Azure Storage environment using **Blob Storage, Azure Files, RBAC, SAS, lifecycle policies, immutable storage, and network controls**.
