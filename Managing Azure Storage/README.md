@@ -26,6 +26,7 @@ Lab-07-Manage-Azure-Storage/
 ├── 01-Storage-Account.md
 ├── 02-Blob-Storage.md
 ├── 03-Azure-Files.md
+├── 04-Troubleshooting.md
 ```
 
 ## Result
