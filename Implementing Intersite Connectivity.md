@@ -1,4 +1,5 @@
 # AZ-104 - Implementing Intersite Connectivity
+<img width="1828" height="759" alt="image" src="https://github.com/user-attachments/assets/1042c05b-b034-4e0f-961d-d880455c765a" />
 
 This Azure lab is focused on connecting seperate VNets using VNet Peering and then testing connectivity with Azure Network Watcher and Powershell, as well as implementing custom routes using UDRs
 
