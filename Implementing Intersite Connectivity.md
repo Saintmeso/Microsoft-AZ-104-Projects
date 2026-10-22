@@ -219,48 +219,8 @@ The ManufacturingVnet peering screenshot shows a connected peering relationship 
 
 The Remote Desktop firewall rule was enabled on `CoreServicesVM` using Azure Run Command.
 
-```powershell
-Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
-This command enables the Windows Firewall rules associated with Remote Desktop, allowing RDP traffic when network connectivity and other security rules permit it.
-
-### Enable Remote Desktop Firewall Rule
-
-![Enable Remote Desktop firewall rule](images/12-enable-rdp-firewall.png)
-
-## 3. Test the TCP Connection
-
-After configuring the firewall rule, I used PowerShell on `ManufacturingVM` to test connectivity to `CoreServicesVM` over TCP port `3389`.
-
-```powershell
-Test-NetConnection 10.0.0.4 -Port 3389
-```
-
-The command checks whether `ManufacturingVM` can establish a TCP connection to the private IP address of `CoreServicesVM`.
-
-| Setting | Value |
-|---|---|
-| Source VM | `ManufacturingVM` |
-| Source Private IP | `172.16.0.4` |
-| Destination VM | `CoreServicesVM` |
-| Destination Private IP | `10.0.0.4` |
-| Protocol | TCP |
-| Destination Port | `3389` |
-
-### PowerShell Connectivity Test
-
-<img width="1277" height="608" alt="az-104 running command on Coreservicesvm" src="https://github.com/user-attachments/assets/ddcbdc3b-a530-48b7-a959-39db42797f3f" />
-
-### Connectivity Test Results
-
-The test returned the following results:
-
-```text
-SourceAddress    : 172.16.0.4
-TcpTestSucceeded : True
-```
-
-!<img width="2022" height="778" alt="PowerShell Test-NetConnection Results" src="https://github.com/user-attachments/assets/933e77db-d4da-4247-b523-9d06064b9dbb" />
+<img width="2022" height="778" alt="PowerShell Test-NetConnection Results" src="https://github.com/user-attachments/assets/933e77db-d4da-4247-b523-9d06064b9dbb" />
 
 ### Result
 
