@@ -1,4 +1,5 @@
 # Implementing Virtual Networking
+<img width="1490" height="762" alt="image" src="https://github.com/user-attachments/assets/dcc3815a-0c34-4f34-982e-d082fa05e6d7" />
 
 Thinking Breakdown:
 
